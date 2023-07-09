@@ -1,0 +1,84 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700;800&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+body{
+    height: 100vh;
+	width: 100vw;
+    background-color: #34495e;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-position: center;
+    color: white;
+}
+header p{
+    font-size: 60px;
+    text-align: center;
+    font-weight: bold;
+}
+.secretnum{
+    color: white;
+    background-color: black;
+    padding:20px 0;
+    text-align: center;
+    border:1px solid red;
+    margin:auto;
+    width:100px;
+    height: 70px;
+    display: block;
+}
+main{
+    display: block;
+    margin: auto;
+    width: 70%;
+    text-align: center;
+    padding: 50px;
+}
+input{
+    border: none;
+    outline: none;
+    padding:8px;
+    margin:5px auto;
+    font-size: 14px;
+    width: 100%;
+    text-align: center;
+    border-radius: 5px;
+    font-weight: bold;
+}
+input:focus{
+    border: none;
+    outline: none;
+}
+.message{
+    text-shadow: 0.5px 0.5px 3px black;
+}
+button{
+    border: none;
+    color: white;
+    font-size: 15px;
+    font-weight: bold;
+    text-align: center;
+    width:100%;
+    margin:20px auto;
+    padding:8px;
+    border-radius: 5px;
+    box-shadow: 0 0 8px black;
+}
+.check{
+    background-color: dodgerblue;
+}
+.again{
+    background-color: red;
+}
+@media screen and (max-width:480px){
+    body{
+        padding: 50px 0;
+    }
+    header p{
+        font-size: 18px;
+        margin:15px;
+    }
+}
